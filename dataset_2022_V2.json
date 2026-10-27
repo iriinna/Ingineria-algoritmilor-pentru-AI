@@ -1,0 +1,34 @@
+[
+  {
+    "id": "FMI_INFO_2022_V2_1",
+    "disciplina": "Informatica",
+    "an": 2022,
+    "sesiune": "Iulie",
+    "tip_item": "grila",
+    "enunt_latex": "Consideram urmatorul algoritm scris in pseudocod:\nciteste n (numar natural nenul)\ni <- 0; p <- 1\ncat timp i <= n executa\n  j <- 1\n  cat timp j <= p executa\n    scrie j\n    j <- j + 1\n  i <- i + 1\n  p <- p * 2\nComplexitatea algoritmului de mai sus este egala cu:",
+    "optiuni": {
+      "A": "O(n \\cdot log_2 n)",
+      "B": "O(2^n)",
+      "C": "O(n \\cdot p)",
+      "D": "O(n^2)"
+    },
+    "raspuns_corect": "B",
+    "barem": "Bucla interioara se executa de p ori. p isi dubleaza valoarea la fiecare pas al buclei exterioare (i de la 0 la n). Numarul total de pasi este 1 + 2 + 4 + ... + 2^n = 2^{n+1} - 1. Prin urmare, complexitatea este O(2^n)."
+  },
+  {
+    "id": "FMI_INFO_2022_V2_2",
+    "disciplina": "Informatica",
+    "an": 2022,
+    "sesiune": "Iulie",
+    "tip_item": "grila",
+    "enunt_latex": "In urmatorul algoritm descris in pseudocod variabilele rez, i si n sunt de tip intreg, iar v este un vector de numere intregi cu elementele aflate pe pozitiile de la 1 la n:\nrez <- 0\npentru i <- 1, n-1 executa\n  rez <- rez + v[i] * v[i+1]\nDaca variabila n are valoarea 10, pentru cati vectori v cu 10 elemente din multimea {0, 1} cu elementele pe pozitiile 1, 2,..., 10 variabila rez va avea valoarea 0 la finalul executarii algoritmului?",
+    "optiuni": {
+      "A": "256",
+      "B": "89",
+      "C": "144",
+      "D": "512"
+    },
+    "raspuns_corect": "C",
+    "barem": "Produsul v[i]*v[i+1] este 1 doar daca ambele elemente sunt 1. Pentru ca suma rez sa fie 0, nu trebuie sa existe nicio secventa de doi de 1 alaturati in vector. Numarul de astfel de siruri de lungime n formate din 0 si 1 se calculeaza folosind sirul lui Fibonacci. Pentru n=10, valoarea este F_{12} = 144."
+  },
+]
