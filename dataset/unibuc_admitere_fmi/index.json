@@ -1,0 +1,78 @@
+{
+  "dataset": "Subiecte admitere Facultatea de Matematică și Informatică, Universitatea din București",
+  "total_itemi": 121,
+  "fisiere": [
+    {
+      "fisier": "cti/2018_iulie.json",
+      "domeniu_admitere": "Calculatoare și Tehnologia Informației",
+      "an": 2018,
+      "sesiune": "Iulie",
+      "data_examen": "2018-07-15",
+      "discipline": [
+        "Informatică",
+        "Matematică"
+      ],
+      "numar_itemi": 30
+    },
+    {
+      "fisier": "cti/2019_iulie.json",
+      "domeniu_admitere": "Calculatoare și Tehnologia Informației",
+      "an": 2019,
+      "sesiune": "Iulie",
+      "data_examen": "2019-07-20",
+      "discipline": [
+        "Informatică",
+        "Matematică"
+      ],
+      "numar_itemi": 30
+    },
+    {
+      "fisier": "informatica/2018_iulie.json",
+      "domeniu_admitere": "Informatică",
+      "an": 2018,
+      "sesiune": "Iulie",
+      "data_examen": "2018-07-13",
+      "discipline": [
+        "Informatică",
+        "Matematică"
+      ],
+      "numar_itemi": 15
+    },
+    {
+      "fisier": "informatica/2019_iulie.json",
+      "domeniu_admitere": "Informatică",
+      "an": 2019,
+      "sesiune": "Iulie",
+      "data_examen": "2019-07-18",
+      "discipline": [
+        "Informatică",
+        "Matematică"
+      ],
+      "numar_itemi": 17
+    },
+    {
+      "fisier": "matematica/2018_iulie.json",
+      "domeniu_admitere": "Matematică",
+      "an": 2018,
+      "sesiune": "Iulie",
+      "data_examen": "2018-07-14",
+      "discipline": [
+        "Informatică",
+        "Matematică"
+      ],
+      "numar_itemi": 13
+    },
+    {
+      "fisier": "matematica/2019_iulie.json",
+      "domeniu_admitere": "Matematică",
+      "an": 2019,
+      "sesiune": "Iulie",
+      "data_examen": "2019-07-19",
+      "discipline": [
+        "Informatică",
+        "Matematică"
+      ],
+      "numar_itemi": 16
+    }
+  ]
+}
